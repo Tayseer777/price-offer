@@ -1,5 +1,5 @@
 import favicon from './extensions/download.png';
-
+//
 export default {
   config: {
     locales: ['ar', 'en'],
