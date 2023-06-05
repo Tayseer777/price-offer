@@ -1,4 +1,4 @@
-import path  from 'path';
+import path  from ('path');
 
 module.exports = ({ env }) => {
   const client = env('DATABASE_CLIENT', 'postgres');
