@@ -30,9 +30,6 @@
       "relation": "oneToMany",
       "target": "api::offer.offer",
       "mappedBy": "client"
-    },
-    "adds": {
-      "type": "string"
     }
   }
 }
