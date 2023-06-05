@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offer_main_title": {
+      "type": "string",
+      "required": true
+    },
+    "offer_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "items": {
+      "displayName": "Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.items"
+    },
+    "Total_price": {
+      "type": "string",
+      "required": true
+    },
+    "special_discount": {
+      "type": "string"
+    },
+    "additional_information": {
+      "displayName": "Additional Information",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.additional-information"
+    },
+    "is_client_arabic": {
+      "type": "boolean",
+      "required": true
+    },
+    "client": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::client.client",
+      "inversedBy": "offers"
+    }
+  }
+}
