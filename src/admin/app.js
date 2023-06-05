@@ -1,5 +1,7 @@
 import favicon from './extensions/download.png';
 //
+import TweetButton from "./extensions/components/TweetButton";
+
 export default {
   config: {
     locales: ['ar', 'en'],
@@ -26,6 +28,7 @@ export default {
       "app.components.LeftMenu.navbrand.title": "Price Offer",
       "app.components.LeftMenu.navbrand.workplace": "Vuedale Technologies",
       "app.components.HomePage.welcome.again": "Hi Vuedale!",
+      "app.components.TweetButton.button": "Share on Twitter",
 
     },
     ar: {
@@ -63,6 +66,11 @@ export default {
       "admin.pages.MarketPlacePage.offline.subtitle": "You need to be connected to the Internet to access Strapi Market.",
       "admin.pages.MarketPlacePage.plugins": "اضافات",
     },
-    
-  bootstrap() {},
+    bootstrap (app) {
+      app.injectContentManagerComponent("editView", "right-links", {
+        name: "TweetButton",
+        Component: TweetButton,
+      });
+    },
+  // bootstrap() {},
 }}};

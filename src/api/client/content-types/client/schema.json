@@ -30,6 +30,10 @@
       "relation": "oneToMany",
       "target": "api::offer.offer",
       "mappedBy": "client"
+    },
+    "is_client_arabic": {
+      "type": "boolean",
+      "required": true
     }
   }
 }

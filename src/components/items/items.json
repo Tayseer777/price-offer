@@ -1,19 +1,16 @@
 {
   "collectionName": "components_items_items",
   "info": {
-    "displayName": "Items"
+    "displayName": "Items",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "offer_number": {
-      "type": "string",
-      "required": true
-    },
     "offer_title": {
       "type": "string"
     },
     "offer_description": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "offer_price": {

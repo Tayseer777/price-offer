@@ -39,15 +39,18 @@
       "repeatable": true,
       "component": "items.additional-information"
     },
-    "is_client_arabic": {
-      "type": "boolean",
-      "required": true
-    },
     "client": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::client.client",
       "inversedBy": "offers"
+    },
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "secondary_title": {
+      "type": "string"
     }
   }
 }
