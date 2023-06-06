@@ -17,7 +17,7 @@ module.exports = {
               },
             },
             published: {
-              url: 'http://offers.vuedale.com/offers/{id}',
+              url: 'https://vuedaleoffers.netlify.app/offers/{id}',
             },
           },
           // {
