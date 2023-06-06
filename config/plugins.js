@@ -1,9 +1,9 @@
 module.exports = {
     // ...
-    'link-button': {
-      enabled: true,
-      resolve: './src/plugins/link-button'
-    },
+    // 'link-button': {
+    //   enabled: true,
+    //   resolve: './src/plugins/link-button'
+    // },
     'preview-button': {
       config: {
         contentTypes: [
