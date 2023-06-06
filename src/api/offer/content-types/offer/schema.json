@@ -51,6 +51,10 @@
     },
     "secondary_title": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "offer_main_title"
     }
   }
 }

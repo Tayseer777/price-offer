@@ -34,6 +34,10 @@
     "is_client_arabic": {
       "type": "boolean",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }
