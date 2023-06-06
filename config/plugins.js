@@ -17,7 +17,7 @@ module.exports = {
               },
             },
             published: {
-              url: 'http://offers.vuedale.com/offer/{id}',
+              url: 'http://offers.vuedale.com/offers/{id}',
             },
           },
           // {

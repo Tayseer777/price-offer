@@ -25,11 +25,10 @@ export default {
     },
   translations: {
     en:{
-      "app.components.LeftMenu.navbrand.title": "Price Offer",
+      "app.components.LeftMenu.navbrand.title": "Office",
       "app.components.LeftMenu.navbrand.workplace": "Vuedale Technologies",
       "app.components.HomePage.welcome.again": "Hi Vuedale!",
       "app.components.TweetButton.button": "Share on Twitter",
-
     },
     ar: {
       "app.components.LeftMenu.logout": "تسجيل خروج",
