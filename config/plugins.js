@@ -9,13 +9,13 @@ module.exports = {
         contentTypes: [
           {
             uid: 'api::offer.offer',
-            draft: {
-              url: 'http://localhost:1337/api/offers',
-              query: {
-                type: 'offer',
-                id: '{id}',
-              },
-            },
+            // draft: {
+            //   url: 'http://localhost:1337/api/offers',
+            //   query: {
+            //     type: 'offer',
+            //     id: '{id}',
+            //   },
+            // },
             published: {
               url: 'https://vuedaleoffers.netlify.app/offers/{id}',
             },
