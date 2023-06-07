@@ -17,7 +17,7 @@
       "required": true
     },
     "offer_date": {
-      "type": "datetime",
+      "type": "date",
       "required": true
     },
     "items": {
