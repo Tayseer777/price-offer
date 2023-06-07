@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "offer_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "offer_description": {
       "type": "text",
@@ -15,7 +16,7 @@
     },
     "offer_price": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
